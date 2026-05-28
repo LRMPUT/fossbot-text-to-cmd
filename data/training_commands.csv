@@ -1,0 +1,76 @@
+text,action
+do przodu,forward
+naprzód,forward
+jedź prosto,forward
+ruszaj,forward
+do przodu jedź,forward
+prosto,forward
+idź naprzód,forward
+ruszaj do przodu,forward
+jedź do przodu,forward
+naprzód jedź,forward
+do przodu szybko,forward
+ruszaj prosto,forward
+dalej,forward
+idź dalej,forward
+prosto naprzód,forward
+do tyłu,backward
+cofnij,backward
+wstecz,backward
+cofnij się,backward
+do tyłu jedź,backward
+tyłem,backward
+wstecz jedź,backward
+cofaj,backward
+zacznij się cofać,backward
+wycofaj się,backward
+tył,backward
+wsteczny bieg,backward
+jedź tyłem,backward
+wycofaj,backward
+do tyłu cofnij,backward
+w lewo,turn_left
+skręć w lewo,turn_left
+obrót w lewo,turn_left
+lewo,turn_left
+skręć lewo,turn_left
+w lewo skręć,turn_left
+zawróć w lewo,turn_left
+obróć się w lewo,turn_left
+lewa strona,turn_left
+skręcaj w lewo,turn_left
+lewo skręć,turn_left
+zakręć w lewo,turn_left
+w lewo obrót,turn_left
+lekko w lewo,turn_left
+tutaj w lewo,turn_left
+w prawo,turn_right
+skręć w prawo,turn_right
+obrót w prawo,turn_right
+prawo,turn_right
+skręć prawo,turn_right
+w prawo skręć,turn_right
+zawróć w prawo,turn_right
+obróć się w prawo,turn_right
+prawa strona,turn_right
+skręcaj w prawo,turn_right
+prawo skręć,turn_right
+zakręć w prawo,turn_right
+w prawo obrót,turn_right
+lekko w prawo,turn_right
+tutaj w prawo,turn_right
+stop,stop
+zatrzymaj się,stop
+stój,stop
+zatrzymaj,stop
+stop teraz,stop
+stań,stop
+zatrzymanie,stop
+wstrzymaj się,stop
+nie ruszaj się,stop
+zatrzymaj robota,stop
+teraz stop,stop
+stój na miejscu,stop
+wstrzymaj ruch,stop
+zaprzestań,stop
+koniec ruchu,stop
