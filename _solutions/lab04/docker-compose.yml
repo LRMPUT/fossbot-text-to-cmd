@@ -1,0 +1,41 @@
+services:
+  basic-sklearn:
+    image: fossbot-text-to-cmd:latest
+    volumes:
+      - text-to-cmd-output:/output
+    command: >
+      python -m src.text_to_wheels
+      --input data/examples/basic.txt
+      --output /output/basic_sklearn.json
+      --classifier sklearn
+
+  basic-st:
+    image: fossbot-text-to-cmd:latest
+    volumes:
+      - text-to-cmd-output:/output
+    command: >
+      python -m src.text_to_wheels
+      --input data/examples/basic.txt
+      --output /output/basic_st.json
+      --classifier st
+
+  reader-sklearn:
+    image: fossbot-text-to-cmd:latest
+    volumes:
+      - text-to-cmd-output:/output
+    command: cat /output/basic_sklearn.json
+    depends_on:
+      basic-sklearn:
+        condition: service_completed_successfully
+
+  reader-st:
+    image: fossbot-text-to-cmd:latest
+    volumes:
+      - text-to-cmd-output:/output
+    command: cat /output/basic_st.json
+    depends_on:
+      basic-st:
+        condition: service_completed_successfully
+
+volumes:
+  text-to-cmd-output:

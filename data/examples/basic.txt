@@ -1,0 +1,7 @@
+go forward
+turn left
+stop
+go back
+turn right
+back up
+forward

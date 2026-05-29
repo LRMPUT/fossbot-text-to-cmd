@@ -1,0 +1,76 @@
+text,action
+go forward,forward
+forward,forward
+move forward,forward
+ahead,forward
+go straight,forward
+drive forward,forward
+advance,forward
+go forward please,forward
+straight ahead,forward
+keep going,forward
+move ahead,forward
+go forward fast,forward
+straight on,forward
+onward,forward
+proceed forward,forward
+go back,backward
+back up,backward
+reverse,backward
+backwards,backward
+go backwards,backward
+drive back,backward
+retreat,backward
+start backing up,backward
+go in reverse,backward
+back,backward
+drive backwards,backward
+back away,backward
+move backwards,backward
+back up please,backward
+back here,backward
+turn left,turn_left
+go left,turn_left
+left,turn_left
+take a left,turn_left
+turn to the left,turn_left
+rotate left,turn_left
+left turn,turn_left
+left here,turn_left
+swing left,turn_left
+veer left,turn_left
+curve left,turn_left
+turn left now,turn_left
+slight left,turn_left
+left side,turn_left
+left please,turn_left
+turn right,turn_right
+go right,turn_right
+right,turn_right
+take a right,turn_right
+turn to the right,turn_right
+rotate right,turn_right
+right turn,turn_right
+right here,turn_right
+swing right,turn_right
+veer right,turn_right
+curve right,turn_right
+turn right now,turn_right
+slight right,turn_right
+right side,turn_right
+right please,turn_right
+stop,stop
+halt,stop
+stop now,stop
+cease,stop
+brake,stop
+freeze,stop
+don't move,stop
+stop the robot,stop
+halt now,stop
+stand still,stop
+stay still,stop
+cease moving,stop
+stop here,stop
+wait,stop
+end movement,stop

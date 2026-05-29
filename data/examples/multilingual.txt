@@ -1,0 +1,15 @@
+do przodu
+skręć w lewo
+stop
+do tyłu
+skręć w prawo
+fahre vorwärts
+links abbiegen
+halt
+zurück
+rechts abbiegen
+adelante
+gira a la izquierda
+para
+hacia atrás
+gira a la derecha

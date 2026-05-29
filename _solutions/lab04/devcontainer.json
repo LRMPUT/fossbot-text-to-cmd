@@ -1,0 +1,28 @@
+{
+    // Human-readable name shown in the VSCode status bar when the
+    // container is open. Anything would work; we match the project folder.
+    "name": "fossbot-text-to-cmd",
+
+    // Build the dev container from the project's Dockerfile.
+    // "../Dockerfile" - this devcontainer.json sits in .devcontainer/, so ".."
+    //   points one level up to the project root where the Dockerfile lives.
+    // ".." - build context = project root, so the Dockerfile's COPY steps see
+    //   the whole project (src/, data/, requirements.txt, ...).
+    "build": {
+        "dockerfile": "../Dockerfile",
+        "context": ".."
+    },
+
+    // Extensions installed inside the container on first open. The string is
+    // the extension ID in the form "publisher.name" (visible on the
+    // Marketplace page or in the Extensions panel), not the display name.
+    // ms-python.python = official Microsoft Python extension (syntax,
+    // debugger, linting). Add more IDs if you want them.
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python"
+            ]
+        }
+    }
+}
